@@ -1,0 +1,54 @@
+.cards-container {
+  box-sizing: border-box;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* padding: 4px;
+  gap: 10px; */
+}
+
+.card-container {
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: rgb(255, 251, 245);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.474);
+  text-align: center;
+  transition: transform 0.4s, box-shadow 0.4s;
+  padding: 20px;
+  max-height: 100vh;
+}
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.474);
+}
+.card-container img {
+  height: 300px;
+}
+
+.card-container > button {
+  width: 130px;
+  height: 50px;
+}
+
+.card-container > button > span {
+  font-weight: bold;
+}
+
+.tag {
+  transition: color 0.4s;
+}
+.Pikachu:hover {
+  color: rgb(174, 174, 44);
+}
+.Bulbasaur:hover {
+  color: rgb(0, 207, 3);
+}
+.Charmander:hover {
+  color: orangered;
+}
+.Squirtle:hover {
+  color: rgb(0, 114, 207);
+}

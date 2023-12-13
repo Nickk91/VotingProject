@@ -1,0 +1,47 @@
+.header-container {
+  position: relative;
+  box-sizing: border-box;
+  height: 90px;
+  border-bottom: 2px solid burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 20px;
+  /* gap: 70vw; */
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgb(201, 141, 63);
+  top: 0;
+  width: 100%;
+  position: sticky;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 60px;
+  width: 60px;
+  background: url("../assets/images/ballot-box-voting-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header-container button {
+  height: 50px;
+  width: 120px;
+}
+.user-icon {
+  display: inline;
+  height: 20px;
+}
+
+.user-btn {
+}
+button {
+  display: inline-block;
+}
+
+/* .buttons-container button {
+  display: flex;
+  flex-direction: row;
+} */

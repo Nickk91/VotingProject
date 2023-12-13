@@ -1,0 +1,29 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container {
+  border: solid rgba(0, 0, 0, 0.268) 1px;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: "left";
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.474);
+}
+
+.login-btn {
+  margin-top: 20px;
+  width: 170px;
+  height: 30px;
+}
+
+.hero-logo {
+  width: 100px;
+}
