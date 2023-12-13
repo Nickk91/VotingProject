@@ -4,11 +4,24 @@ Vote for your favorite Pokemon
 
 ## Description:
 
-You login using an email and password. After the login you're roted to the voting page where you cna choose your favorite pokem
+You login using an email and password. After the login you're roted to the voting page where you cna choose your favorite pokemon
+
+## Usernames and Passwords:
+
+    email: "nickkaploon@gmail.com",
+    password: "Ab1234$",
+
+    email: "revicohen@gmail.com",
+    password: "Adg234$",
+
+    email: "admin@gmail.com",
+    password: "Admin1234$",
 
 ## Errors:
 
 The project is not functional. I wasn't able to create the voting system.
+The results page wasn't created.
+Admin functions weren't implemented.
 
 ## Installation
 
@@ -41,4 +54,5 @@ I want to give credit to my bootcamp instructor Elad and Shehadey for assisting 
 ## Support
 
 Please email me at nickkaploon@gmail.com if you encountered problems while trying to use my software.
+
 # VotingProject
